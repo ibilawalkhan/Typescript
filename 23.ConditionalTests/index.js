@@ -1,0 +1,16 @@
+var car = 'subaru';
+var city = 'Islamabad';
+var country = 'Pakistan';
+var phone = 'Iphone';
+var laptop = 'Macbook Pro';
+console.log("Is car == 'subaru'? I predict True.");
+console.log(car == 'subaru');
+console.log(car == 'BMW');
+console.log(city == 'Islamabad');
+console.log(car == 'Abbottabad');
+console.log(country == 'Pakistan');
+console.log(country == 'India');
+console.log(phone == 'Iphone');
+console.log(phone == 'Samsung');
+console.log(laptop == 'Macbook Pro');
+console.log(laptop == 'Hp');
