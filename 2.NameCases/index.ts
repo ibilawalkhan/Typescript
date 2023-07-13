@@ -1,4 +1,4 @@
-let myName: String = "bilawal khan";
+let myName: string = "bilawal khan";
 
 console.log(myName.toLowerCase());
 console.log(myName.toUpperCase());
@@ -9,14 +9,15 @@ function toTitleCase(str: String): String {
 }
 
 
+
 /*
 Second method
 
-function toTitleCase(str: String): String {
-    str = str.toLowerCase().split(' ');
+function toTitleCase(str: string): string {
+    const word = str.toLowerCase().split(' ');
     for (var i = 0; i < str.length; i++) {
-        str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+        word[i] = word[i].charAt(0).toUpperCase() + word[i].slice(1);
     }
-    return str.join(' ');
+    return word.join(' ');
 }
 */
